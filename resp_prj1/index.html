@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <title>Responsive Page</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="">
+
+  <link href="css/normalize.css" rel="stylesheet">
+  <!-- <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/fontawesome.min.css" rel="stylesheet"> -->
+  <script src="https://kit.fontawesome.com/881a8d00a0.js" crossorigin="anonymous"></script>
+  <link href="css/style.css" rel="stylesheet">
+
+</head>
+<body>
+  <div class="outer-container">
+    <header class="header">
+      <div class="top-header">
+        <div class="inner-container">
+          <h1 class="logo">
+            <img class="logo__img" src="images/logo.png" alt="logo"> 
+          </h1>
+        </div>
+      </div>
+      <div class="banner">
+        <h2 class="banner__title">نام سازمان شما</h2>
+        <p class="banner__tagline">وبسایتی برای کسب و کار شما</p>
+        <time class="banner__date" id="current_time" style="font-size: 2em; margin-left: 0.3em;"></time>
+        <time class="banner__date" id="current_date" style="font-size: 1.2em;"></time>
+        <a href="" class="banner__btn">پیوستن به ما</a>
+      </div>
+    </header>
+    <main class="main">
+      <section class="works">
+        <h2 class="works__title">جدیدترین پروژه ها</h2>
+        <p class="works__text">نمونه کار ها - نمونه کار ها - نمونه کار ها - نمونه کار ها - نمونه کار ها - نمونه کار ها - نمونه کار ها - نمونه کار ها </p> 
+        <p class="works__text">نمونه کار ها - نمونه کار ها - نمونه کار ها - نمونه کار ها - نمونه کار ها - نمونه کار ها - نمونه کار ها </p>       
+      </section>
+      
+      <section class="contact">
+        <input class="contact__input" type="text" placeholder="نام و نام خانوادگی">
+        <input class="contact__input" type="email" placeholder="آدرس ایمیل">
+        <input class="contact__input" type="tel" placeholder="شماره تماس">
+        <textarea class="contact__input" rows="5" placeholder="متن پیام"></textarea>
+        <button class="contact__btn">ارسال</button>
+
+        <!-- <div class="inner-container"> -->
+          <div class="contact__wrapper">
+            <h3 class="contact__title">تماس با ما</h3>
+            <div class="contact__row">
+              <span class="contact__icon fa fa-pencil"></span>
+              <span class="contact__text">
+                نام  <br>
+                سمت  <br>
+                آدرس پستی <br>
+                شهر و کشور
+              </span>
+            </div>
+            <div class="contact__row">
+              <span class="contact__icon fa fa-phone"></span>
+              <span class="contact__text">شماره تماس</span>
+            </div>
+            <div class="contact__row">
+              <span class="contact__icon fa fa-envelope-o"></span>
+              <span class="contact__text">آدرس ایمیل</span>
+            </div>
+          </div>
+        <!-- </div> -->
+        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d142559.69093363202!2d-122.01769455824936!3d37.31928607728712!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fba02425dad8f%3A0x6c296c66619367e0!2sGoogleplex!5e0!3m2!1sen!2s!4v1621679587098!5m2!1sen!2s" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      </section>
+
+    </main>
+
+    <footer class="footer">
+      <div class="inner-container">
+        <h2 class="footer__title">اشتراک خبرنامه</h2>
+        <p class="footer__tagline">با ما به روز باشید</p>
+
+        <div class="newsletter">
+          <input type="email" class="newsletter__input" placeholder="آدرس ایمیل شما">
+          <a href="" class="newsletter__btn fa fa-send"></a>
+        </div>
+
+        <ul class="social-links">
+          <li><a href="" class="social-link fab fa-twitter-square"></a></li>
+          <li><a href="" class="social-link fab fa-facebook"></a></li>
+          <li><a href="" class="social-link fab fa-dribbble"></a></li>
+          <li><a href="" class="social-link fab fa-skype"></a></li>
+          <li><a href="" class="social-link fab fa-youtube"></a></li>
+        </ul>
+
+        <p class="copyright">Copyrigth 2021</p>
+      </div>
+    </footer>
+
+  </div>
+
+  <script type="text/javascript" src="scripts/script.js"></script>
+</body>
+</html>
